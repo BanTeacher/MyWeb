@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>profile 1</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="member1">
+	<section>
+		<nav class="menu">
+			<a href="#"><i class="fas fa-bars"></i></a>
+			<a href="#"><i class="far fa-sticky-note"></i></a>
+		</nav>
+
+		<article class="profile">
+			<img src="img/donggeuri.png" alt="프로필 이미지" >
+
+			<h1>DONGGEURI</h1>
+			<h2>Seoul Digitech HighSchool Student</h2>
+			<span>sdh20230101@sdh.hs.kr</span>
+			<p>This is my profile.</p>
+
+			<a href="#" class="btnView">VIEW MORE</a>
+		</article>		
+		
+		<nav class="others">
+			<button class="bgBtn on" style="background-color: #abeef7;"></button>
+			<button class="bgBtn" style="background-color: #aafce8;"></button>
+			<button class="bgBtn" style="background-color: #fdc1ee;"></button>
+			<button class="bgBtn" style="background-color: #ccc1ff;"></button>
+		</nav>
+	</section>
+
+	<div class="modalBack"></div>
+
+	<div class="modal">
+		<span class="close" id="modalClose">&times;</span> <!-- Close Button(x표시)-->
+		<div class="container">
+			<p id="modal_title">모달 프로필 창</p>
+			<img alt="profile_modal" id="modalImage">
+			<p id="profileName" class="modal_p">이름(Name)</p>
+			<div id="modalName" class="modal-name"></div>
+			<p id="profileDept" class="modal_p">소속(Name)</p>
+			<div id="modalDept" class="modal-deopt"></div>
+			<p id="profileDept" class="modal_p">이메일(E-mail)</p>
+			<div id="modalMail" class="modal-mail"></div>
+		</div>
+	</div>
+
+	<script src="./js/script.js"></script>
+</body>
+</html>
